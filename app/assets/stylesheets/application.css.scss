@@ -19,9 +19,15 @@ h5 {
 body {
      font-family: 'Open Sans', sans-serif;
  }
- 
-
-
+.navbar-default .navbar-toggle {
+  border: 1px solid white;
+  &:hover, &:focus {
+    background-color: #00CDAC;
+  }
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white; 
+}
 .home-callout, .navbar {
   background: #02AAB0;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #00CDAC, #02AAB0);  /* Chrome 10-25, Safari 5.1-6 */
